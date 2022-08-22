@@ -1,0 +1,35 @@
+.container{
+    background-color: gray;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid blue;
+    box-sizing: content-box;   /*content box 설정*/   
+    padding: 50px;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid red;
+    box-sizing: border-box;  /*border box* 설정*/
+    padding: 50px;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid green;
+    padding: 50px;   /* default 설정값은 content box*/
+}
+
+.text{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}

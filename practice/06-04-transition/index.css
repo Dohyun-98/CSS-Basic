@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+.btn{
+    width: 100px;
+}
+
+.btn:hover{
+    width: 120px;
+    background-color: red;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function:ease ;
+    transition-delay: 2s;
+    transform: scale(0.7,1.1);
+}

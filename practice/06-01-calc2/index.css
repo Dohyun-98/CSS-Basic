@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-start;
+
+}
+
+.sidebar{
+    background-color: red;
+    width: 170px;
+}
+
+.contents{
+    background-color: orange;
+    width: calc(100% - 170px);
+}
